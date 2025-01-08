@@ -76,7 +76,7 @@ For more information, please see:
 
 MIT License - See LICENSE file for details
 
-For more information, please see [LICENSE.md](LICENSE.md)
+For more information, please see the [LICENSE](LICENSE)
 
 ## Contributing
 
