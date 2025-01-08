@@ -10,9 +10,9 @@
 ## Installation
 
 ### Requirements
-- Roblox Studio
-- Knit Framework
-- (Optional) ProfileStore for data management
+- [Roblox Studio](https://create.roblox.com/docs/studio/setting-up-roblox-studio)
+- [Knit Framework](https://sleitnick.github.io/Knit/)
+- (Optional) [ProfileStore](https://madstudioroblox.github.io/ProfileService/) for data management
 
 ### Setup Steps
 
