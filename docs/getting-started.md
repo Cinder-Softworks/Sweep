@@ -338,5 +338,5 @@ local function monitorTaskPerformance(sweep)
         ))
         return originalClean(self)
     end
-end
+end 
 ``` 
