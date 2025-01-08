@@ -1,5 +1,5 @@
 --[=[
-    Utility methods for Sweep tasks management.
+    Utility methods for Sweep tasks management. 
     @class SweepTaskUtils
 ]=]
 
