@@ -10,8 +10,8 @@ type SweepTask = (() -> ()) | Destructable | RBXScriptConnection | thread
 A SweepTask can be any of the following:
 - A function that can be called for cleanup
 - A Destructable object (Instance or object with Destroy method)
-- A RBXScriptConnection
-- A thread (coroutine)
+- A [RBXScriptConnection](https://create.roblox.com/docs/reference/engine/datatypes/RBXScriptConnection)
+- A [thread](https://create.roblox.com/docs/reference/engine/libraries/coroutine) (coroutine)
 
 ### Destructable
 ```lua
@@ -19,7 +19,7 @@ type Destructable = Instance | { Destroy: () -> () }
 ```
 
 A Destructable is either:
-- A Roblox Instance
+- A [Roblox Instance](https://create.roblox.com/docs/reference/engine/classes/Instance)
 - Any object with a Destroy method
 
 ## Internal Implementation Details
@@ -315,3 +315,4 @@ function Sweep:GetTaskLabels(): {[number]: string}
     return table.clone(self._labels)
 end
 ``` 
+
